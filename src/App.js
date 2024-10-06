@@ -36,16 +36,53 @@ function App() {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div
+              className="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
               <ul className="navbar-nav">
-                <li className="nav-item"><Link className="nav-link" to="/#about">About</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="/#features">Features</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="/#pricing">Pricing</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="/#gallery">Gallery</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="/#team">Team</Link></li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/#about">
+                    About
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/#features">
+                    Features
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/#pricing">
+                    Pricing
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/#gallery">
+                    Gallery
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/#team">
+                    Team
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link"
+                    href="https://github.com/Harsh-Porwal424/AnimalHealthMonitering"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                </li>
                 {/* Conditional rendering of Login/Logout */}
                 <li className="nav-item">
-                  <Link className="btn btn-login" to="/login" onClick={handleLoginLogout}>
+                  <Link
+                    className="btn btn-login"
+                    to="/login"
+                    onClick={handleLoginLogout}
+                  >
                     {isLoggedIn ? "Logout" : "Login"}
                   </Link>
                 </li>
