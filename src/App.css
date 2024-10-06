@@ -1,0 +1,502 @@
+.navbar {
+  background-image: linear-gradient(to right, #FFEFBA, #FFFFFF);
+  margin-bottom: 20px; /* Or any custom value you prefer */
+
+}
+
+#banner {
+  background-image: linear-gradient(to right, #FFEFBA, #FFFFFF);
+}
+
+.button-1 {
+  background-image: linear-gradient(to right, #FFE259, #FFA751);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.button-2 {
+  background-image: linear-gradient(to right, #FF4E50, #F9D423);
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+
+.heading-1 {
+  font-family: sans-serif;
+  font-size: 64px;
+}
+
+h6 {
+  font-size: 24px;
+}
+
+.custom-li {
+  padding: 0 10px;
+  align-self: center;
+}
+
+.rounded-image {
+  border-radius: 20px; /* Makes the corners rounded */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+  border: 2px solid #f9d423; /* Optional border color */
+  transition: transform 0.3s ease-in-out; /* Smooth scaling on hover */
+}
+
+.rounded-image:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.logo-image {
+  width: 150px; /* Adjust this width as needed */
+  height: auto; /* Ensures the aspect ratio is maintained */
+  object-fit: contain; /* Ensures the image fits within the given dimensions */
+  margin: 10px; /* Optional margin to create space around the logo */
+}
+
+
+/* General styles */
+body {
+  background-color: #fff9e6;
+  font-family: 'Arial', sans-serif;
+}
+
+.yellow-theme {
+  background-color: #fff9e6;
+  color: #333;
+}
+
+/* Navbar styles */
+.navbar {
+  background-image: linear-gradient(to right, #FFEFBA, #FFFFFF);
+  padding: 15px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.logo-image {
+  max-height: 60px;
+  width: auto;
+  object-fit: contain;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.nav-link {
+  color: #4a4a4a;
+  font-weight: 500;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #FFA751;
+}
+
+.btn-login {
+  background-image: linear-gradient(to right, #FFE259, #FFA751);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-image 0.3s ease;
+}
+
+.btn-login:hover {
+  background-image: linear-gradient(to right, #FFA751, #FFE259);
+}
+
+/* Login page styles */
+.login-container {
+  max-width: 400px;
+  margin: 80px auto 0;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.login-title {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 20px;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+}
+
+.btn-submit {
+  background-image: linear-gradient(to right, #FF4E50, #F9D423);
+  border: none;
+  color: white;
+  padding: 12px;
+  border-radius: 20px;
+  transition: background-image 0.3s ease;
+  font-weight: bold;
+}
+
+.btn-submit:hover {
+  background-image: linear-gradient(to right, #F9D423, #FF4E50);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-top: 15px;
+  }
+  
+  .nav-link {
+    margin: 10px 0;
+  }
+  
+  .btn-login {
+    margin-top: 10px;
+  }
+}
+
+/* Additional styles from the provided CSS */
+#banner {
+  background-image: linear-gradient(to right, #FFEFBA, #FFFFFF);
+}
+
+.heading-1 {
+  font-family: sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+}
+
+h6 {
+  font-size: 24px;
+}
+
+.custom-li {
+  padding: 0 10px;
+  align-self: center;
+}
+
+.rounded-image {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #f9d423;
+  transition: transform 0.3s ease-in-out;
+}
+
+.rounded-image:hover {
+  transform: scale(1.05);
+}
+
+/* Add more styles from the provided CSS as needed */
+
+/* General section styles */
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.section-description {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Features section */
+.feature-item {
+  text-align: center;
+  padding: 1rem;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #FFA751;
+  margin-bottom: 1rem;
+}
+
+/* Pricing section */
+.pricing-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.pricing-card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.pricing-card.featured {
+  background-color: #f8f9fa;
+  border-color: #FFA751;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFA751;
+}
+
+.pricing-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pricing-card li {
+  margin-bottom: 0.5rem;
+}
+
+/* Gallery section */
+.gallery-img {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+/* Team section */
+.team-member {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .pricing-card, .team-member {
+    margin-bottom: 2rem;
+  }
+}
+
+
+.yellow-theme {
+  background-color: #FFEFBA;
+  color: #333;
+}
+
+.navbar {
+  background-color: #FFEFBA;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+.btn-login {
+  background-color: #FFA751;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+.btn-get-started {
+  background-color: #FF7E5F;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.heading-1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+}
+
+.rounded-image {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Features section */
+.feature-item {
+  background-color: #FFF8E1;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.feature-icon {
+  color: #FFA751;
+}
+
+/* Pricing section */
+.pricing-card {
+  background-color: #FFF8E1;
+  border: 1px solid #FFA751;
+  border-radius: 10px;
+}
+
+.pricing-card.featured {
+  background-color: #FFE0B2;
+}
+
+.price {
+  color: #FF7E5F;
+}
+
+/* Gallery section */
+.gallery-img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Team section */
+.team-member img {
+  border: 3px solid #FFA751;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .heading-1 {
+    font-size: 36px;
+  }
+}
+
+.footer-section {
+  display: flex;
+  justify-content: center;  /* Horizontal centering */
+  align-items: center;      /* Vertical centering */
+  height: 100px;            /* Adjust the height if needed */
+  background-color: #f8f9fa; /* Optional: add a background color */
+  text-align: center;       /* Centers the text inside the div */
+}
+
+.footer-section div {
+  font-size: 18px;          /* Optional: adjust font size */
+  padding: 10px;
+}
+
+.gallery-img {
+  width: 100%;        /* Make the image take the full width of its container */
+  height: 300px;      /* Set a fixed height for all images */
+  object-fit: cover;  /* Ensures the image covers the box and maintains aspect ratio */
+  border-radius: 10px; /* Optional: add rounded corners to the images */
+}
+
+.invisible-header {
+  display: none; /* Or use visibility: hidden; */
+}
+.navbar-custom {
+  padding-top: 20px; /* Adjust the value as needed */
+}
+.btn-get-started {
+  display: inline-block;
+  padding: 15px 30px; /* Increased padding for a larger button */
+  font-size: 18px; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  color: #ffffff; /* White text color */
+  background: linear-gradient(45deg, #ff6a00, #ee0979); /* Gradient background */
+  border: none; /* No border */
+  border-radius: 25px; /* Rounded corners for a pill shape */
+  transition: transform 0.3s ease, background 0.3s ease; /* Smooth transitions */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.btn-get-started:hover {
+  background: linear-gradient(45deg, #ee0979, #ff6a00); /* Reverse gradient on hover */
+  transform: translateY(-3px) scale(1.05); /* Slight lift and scale effect */
+}
+
+.btn-get-started:active {
+  transform: translateY(1px); /* Press effect */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Reduce shadow on click */
+}
+.btn-go-there {
+  padding: 0.6em 2em; /* Padding */
+  border: none; /* No border */
+  outline: none; /* No outline */
+  color: rgb(255, 255, 255); /* Text color */
+  background: #111; /* Background color */
+  cursor: pointer; /* Pointer cursor */
+  position: relative; /* Positioning for pseudo-elements */
+  z-index: 0; /* Stacking context */
+  border-radius: 10px; /* Rounded corners */
+  user-select: none; /* Prevent text selection */
+  touch-action: manipulation; /* Touch action for mobile */
+}
+
+.btn-go-there:before {
+  content: ""; /* Content for the pseudo-element */
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  ); /* Gradient background */
+  position: absolute; /* Positioning */
+  top: -2px; /* Positioning */
+  left: -2px; /* Positioning */
+  background-size: 400%; /* Background size for animation */
+  z-index: -1; /* Behind the button */
+  filter: blur(5px); /* Blur effect */
+  width: calc(100% + 4px); /* Full width */
+  height: calc(100% + 4px); /* Full height */
+  animation: glowing-button 20s linear infinite; /* Animation */
+  transition: opacity 0.3s ease-in-out; /* Transition for opacity */
+  border-radius: 10px; /* Rounded corners */
+}
+
+@keyframes glowing-button {
+  0% {
+    background-position: 0 0; /* Starting position */
+  }
+  50% {
+    background-position: 400% 0; /* Midpoint position */
+  }
+  100% {
+    background-position: 0 0; /* Ending position */
+  }
+}
+
+.btn-go-there:after {
+  z-index: -1; /* Behind the button */
+  content: ""; /* Content for the pseudo-element */
+  position: absolute; /* Positioning */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background: #222; /* Background color */
+  left: 0; /* Positioning */
+  top: 0; /* Positioning */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.feature-image {
+  width: 100px; /* Set a fixed width */
+  height: 100px; /* Set a fixed height */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+  margin-bottom: 10px; /* Space below the image */
+}
